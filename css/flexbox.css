@@ -1,0 +1,28 @@
+
+section:nth-child(2n) {
+  background-color: aliceblue;
+}
+
+section:nth-child(2n+1) {
+  background-color: gray;
+}
+
+/* Flexbox */
+main {
+  display: flex;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+#datosgenerales {
+  width: 100%;
+}
+#habilidadespersonales, #conocimientos, #idiomas, #medioscontacto {
+  width: 49.5%;
+}
+#habilidadesprogramacion, #proyectosanteriores, #trabajosanteriores {
+  width: 32.7%;
+}
